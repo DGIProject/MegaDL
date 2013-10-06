@@ -23,6 +23,7 @@
                 <td style="font-weight: bold;">#</td>
                 <td>Name</td>
                 <td>Link</td>
+                <td>Size</td>
                 <td>Progress</td>
                 <td>Options</td>
             </tr>
@@ -37,8 +38,9 @@
         {
             echo '<tr id="'.$infoMegaDL['id'].'">
                     <td style="font-weight: bold;">' . $infoMegaDL['id'] . '</td>
-                    <td>' . $infoMegaDL['fileName'] . '</td>
+                    <td><span id="filename'.$infoMegaDL['id'].'"><img src="assets/img/load.gif"></span></td>
                     <td>' . $infoMegaDL['link'] . '</td>
+                    <td><span id="size'.$infoMegaDL['id'].'"><img src="assets/img/load.gif"></span></td>
                     <td>
                         <div class="progress progress-striped active">
                             <div id="progress' . $infoMegaDL['id'] . '" class="progress-bar"  role="progressbar" aria-valuemin="0" aria-valuemax="100" width="0%"></div>

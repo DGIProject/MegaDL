@@ -35,12 +35,14 @@ function addMegaDL()
             newRow.setAttribute("id",linkId);
             newCell.setAttribute("class","bold");
             newCell = newRow.insertCell(1);
-            newCell.innerHTML = 'FileName';
+            newCell.innerHTML = '<span id="filename'+linkId+'"><img src="assets/img/load.gif"></span>';
             newCell = newRow.insertCell(2);
             newCell.innerHTML = link;
             newCell = newRow.insertCell(3);
-            newCell.innerHTML = '<div class="progress progress-striped active"><div id="progress'+linkId+'" class="progress-bar"  role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div>';
+            newCell.innerHTML = '<span id="size'+linkId+'"><img src="assets/img/load.gif"></span>';
             newCell = newRow.insertCell(4);
+            newCell.innerHTML = '<div class="progress progress-striped active"><div id="progress'+linkId+'" class="progress-bar"  role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div></div>';
+            newCell = newRow.insertCell(5);
             newCell.innerHTML = '<button type="button" onclick="pauseMegaDL('+linkId+');" class="btn"><i class="glyphicon glyphicon-pause"></i></button><button type="button" onclick="deleteMegaDL('+linkId+');" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></button>';
             tableauListID.push(linkId);
         }
@@ -89,12 +91,19 @@ function getPercentage(id)
     {
         if (OAjax.readyState == 4 && OAjax.status==200)
         {
-            console.log(OAjax.responseText)
-            if (OAjax.responseText == "100%")
+            console.log(OAjax.responseText);
+            values = OAjax.responseText.split(";;");
+            if (values[0] == "100%")
             {
+                document.getElementById("progress"+id).classList.add("progress-bar-success");
                 tableauListID.unset(id);
             }
-            document.getElementById("progress"+id).style.width = OAjax.responseText;
+
+            document.getElementById("filename"+id).innerHTML = values[1];
+            var sizeTxt = values[2]+" "+values[3]+" / "+values[4]+" "+values[5];
+            document.getElementById("size"+id).innerHTML = sizeTxt;
+            document.getElementById("progress"+id).style.width = values[0];
+            console.log(values);
         }
     }
 
@@ -102,12 +111,15 @@ function getPercentage(id)
     OAjax.send('id=' + id);
 }
 
-function lunchPercent()
+function launchPercent()
 {
     for (i=0;i<tableauListID.length;i++)
     {
       getPercentage(tableauListID[i]);
     }
 }
-window.setInterval("lunchPercent()",10000);
-//lunchPercent();
+window.setInterval("launchPercent()",10000);
+window.onload = function()
+{
+    launchPercent();
+}
