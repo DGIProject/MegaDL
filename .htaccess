@@ -1,0 +1,8 @@
+Options -Indexes
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^index$ index.php
+RewriteRule ^login$ login.php
+
+ErrorDocument 404 /error.php

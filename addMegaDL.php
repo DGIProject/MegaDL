@@ -1,4 +1,5 @@
-<?php
+<?php session_start();
+
 try
 {
     $bdd = new PDO('mysql:host=localhost;dbname=megadl' , 'root' , 'athome');
@@ -8,8 +9,8 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 
-$query = $bdd->prepare('INSERT INTO list(fileName, link) VALUE(:fileName, :link)');
-$query->execute(array('fileName' => 'fileName', 'link' => $_POST['link']));
+$query = $bdd->prepare('INSERT INTO list(username, link) VALUE(:username, :link)');
+$query->execute(array('username' => $username, 'link' => $_POST['link']));
 
 $lastId = $bdd->lastInsertId();
 
