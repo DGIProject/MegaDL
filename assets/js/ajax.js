@@ -92,18 +92,22 @@ function getPercentage(id)
         if (OAjax.readyState == 4 && OAjax.status==200)
         {
             console.log(OAjax.responseText);
-            values = OAjax.responseText.split(";;");
-            if (values[0] == "100%")
+            if (OAjax.responseText != ";;;;;;;;;;")
             {
-                document.getElementById("progress"+id).classList.add("progress-bar-success");
-                tableauListID.unset(id);
+                values = OAjax.responseText.split(";;");
+                if (values[0] == "100%")
+                {
+                    document.getElementById("progress"+id).classList.add("progress-bar-success");
+                    tableauListID.unset(id);
+                }
+
+                document.getElementById("filename"+id).innerHTML = values[1];
+                var sizeTxt = values[2]+" "+values[3]+" / "+values[4]+" "+values[5];
+                document.getElementById("size"+id).innerHTML = sizeTxt;
+                document.getElementById("progress"+id).style.width = values[0];
+                console.log(values);
             }
 
-            document.getElementById("filename"+id).innerHTML = values[1];
-            var sizeTxt = values[2]+" "+values[3]+" / "+values[4]+" "+values[5];
-            document.getElementById("size"+id).innerHTML = sizeTxt;
-            document.getElementById("progress"+id).style.width = values[0];
-            console.log(values);
         }
     }
 

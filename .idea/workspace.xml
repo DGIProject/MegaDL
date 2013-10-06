@@ -5,7 +5,7 @@
     <ignored path="MegaDL.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/deleteMegaDL.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381047723272" ignored="false" />
-    <file path="/ajax.js" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381064866796" ignored="false" />
+    <file path="/ajax.js" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381065515144" ignored="false" />
     <file path="/index.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381064111128" ignored="false" />
     <file path="/addMegaDL.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381044060421" ignored="false" />
     <file path="/test.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381002557921" ignored="false" />
@@ -76,9 +76,9 @@
       <file leaf-file-name="ajax.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="93" selection-start="3539" selection-end="3539" vertical-scroll-proportion="0.50091743">
+            <state line="108" column="13" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.6880734">
               <folding>
-                <marker date="1381064938263" expanded="true" signature="1666:1675" placeholder="..." />
+                <marker date="1381065540978" expanded="true" signature="1666:1675" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -399,7 +399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1381064938263" expanded="true" signature="1666:1675" placeholder="..." />
+            <marker date="1381065540978" expanded="true" signature="1666:1675" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -452,15 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getPercent.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="85" selection-start="1168" selection-end="1168" vertical-scroll-proportion="-13.269231">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="96" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-10.461538">
@@ -474,11 +465,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/getPercent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="85" selection-start="1168" selection-end="1168" vertical-scroll-proportion="-13.269231">
+          <folding>
+            <element signature="e#6#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="93" selection-start="3539" selection-end="3539" vertical-scroll-proportion="0.50091743">
+        <state line="108" column="13" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.6880734">
           <folding>
-            <marker date="1381064938263" expanded="true" signature="1666:1675" placeholder="..." />
+            <marker date="1381065540978" expanded="true" signature="1666:1675" placeholder="..." />
           </folding>
         </state>
       </provider>
