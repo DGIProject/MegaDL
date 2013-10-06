@@ -1,0 +1,9 @@
+[37;1mbuildire.rar[0m: [32;1m0%[0m - [32;1m0 bytes[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m4%[0m - [32;1m146.2 KiB[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m10%[0m - [32;1m344.5 KiB[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m17%[0m - [32;1m592.0 KiB[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m25%[0m - [32;1m849.4 KiB[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m33%[0m - [32;1m1.1 MiB[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m43%[0m - [32;1m1.4 MiB[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m63%[0m - [32;1m2.1 MiB[0m of 3.2 MiB[0K
+[37;1mbuildire.rar[0m: [32;1m91%[0m - [32;1m3.0 MiB[0m of 3.2 MiB[0K

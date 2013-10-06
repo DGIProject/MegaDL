@@ -7,10 +7,16 @@
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+        .bold
+        {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 <div class="well">
-    <table class="table">
+    <table class="table" id="tabList">
         <h1>MegaDL</h1>
         <thead>
             <tr>
@@ -29,13 +35,13 @@
 
         foreach($listMegaDL as $infoMegaDL)
         {
-            echo '<tr>
+            echo '<tr id="'.$infoMegaDL['id'].'">
                     <td style="font-weight: bold;">' . $infoMegaDL['id'] . '</td>
                     <td>' . $infoMegaDL['fileName'] . '</td>
                     <td>' . $infoMegaDL['link'] . '</td>
                     <td>
                         <div class="progress progress-striped active">
-                            <div id="progress' . $infoMegaDL['id'] . '" class="progress-bar"  role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                            <div id="progress' . $infoMegaDL['id'] . '" class="progress-bar"  role="progressbar" aria-valuemin="0" aria-valuemax="100" width="0%"></div>
                         </div>
                     </td>
                     <td>
@@ -61,5 +67,15 @@
 <script src="assets/js/bootstrap.min.js"></script>
 
 <script src="assets/js/ajax.js"></script>
+<script type="text/javascript">
+
+    <?php
+        foreach($listMegaDL as $infoMegaDL)
+        {
+            echo 'tableauListID.push("'.$infoMegaDL['id'].'");';
+        }
+    ?>
+
+</script>
 </body>
 </html>

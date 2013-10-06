@@ -13,8 +13,8 @@ $query->execute(array('fileName' => 'fileName', 'link' => $_POST['link']));
 
 $lastId = $bdd->lastInsertId();
 
+echo $lastId.';'.$_POST['link'];
+
 $logFile = $lastId . 'mega.log';
 
-echo "megadl '". $_POST['link'] . "' > " . $logFile;
-
-exec("megadl '". $_POST['link'] . "' > " . $logFile, $output);
+shell_exec("./start.sh '".$_POST['link']."' '".$lastId."mega.log' &");
