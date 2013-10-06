@@ -123,7 +123,6 @@ function getPercentage(id,iteration)
                 {
                     document.getElementById("progress"+id).classList.add("progress-bar-success");
                     document.getElementById("speed"+id).innerHTML = "--";
-                    deletePartOfTab(iteration);
                 }
             }
 

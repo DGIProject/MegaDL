@@ -49,19 +49,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addMegaDL.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="addMegaDL.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addMegaDL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="88" selection-start="535" selection-end="535" vertical-scroll-proportion="0.63909775">
+            <state line="20" column="88" selection-start="535" selection-end="535" vertical-scroll-proportion="-13.076923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="73" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-9.5">
+            <state line="46" column="73" selection-start="1505" selection-end="1505" vertical-scroll-proportion="1.5067438">
               <folding>
                 <element signature="n#style#0;n#td#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1381087405685" expanded="true" signature="4151:4234" placeholder="..." />
@@ -74,10 +74,10 @@
       <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="71" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.0">
+            <state line="125" column="0" selection-start="4823" selection-end="4823" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!block;n#deleteMegaDL#0" expanded="false" />
-                <marker date="1381087595962" expanded="true" signature="1871:1887" placeholder="..." />
+                <marker date="1381088935869" expanded="true" signature="1871:1887" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -120,8 +120,8 @@
         <option value="$PROJECT_DIR$/deleteMegaDL.php" />
         <option value="$PROJECT_DIR$/getPercent.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/assets/js/ajax.js" />
         <option value="$PROJECT_DIR$/addMegaDL.php" />
+        <option value="$PROJECT_DIR$/assets/js/ajax.js" />
       </list>
     </option>
   </component>
@@ -288,14 +288,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17272727" sideWeight="0.67064846" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17272727" sideWeight="0.67064846" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -401,7 +401,7 @@
         <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!block;n#deleteMegaDL#0" expanded="false" />
-            <marker date="1381087595962" expanded="true" signature="1871:1887" placeholder="..." />
+            <marker date="1381088935869" expanded="true" signature="1871:1887" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -454,31 +454,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/addMegaDL.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="73" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-9.5">
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1381087405685" expanded="true" signature="4151:4234" placeholder="..." />
-            <marker date="1381087405685" expanded="true" signature="4216:4234" placeholder="{...}" />
-          </folding>
+        <state line="20" column="88" selection-start="535" selection-end="535" vertical-scroll-proportion="-13.076923">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="71" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.0">
+        <state line="125" column="0" selection-start="4823" selection-end="4823" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!block;n#deleteMegaDL#0" expanded="false" />
-            <marker date="1381087595962" expanded="true" signature="1871:1887" placeholder="..." />
+            <marker date="1381088935869" expanded="true" signature="1871:1887" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addMegaDL.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="88" selection-start="535" selection-end="535" vertical-scroll-proportion="0.63909775">
-          <folding />
+        <state line="46" column="73" selection-start="1505" selection-end="1505" vertical-scroll-proportion="1.5067438">
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1381087405685" expanded="true" signature="4151:4234" placeholder="..." />
+            <marker date="1381087405685" expanded="true" signature="4216:4234" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
