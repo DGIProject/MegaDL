@@ -18,4 +18,4 @@ echo $lastId.';'.$_POST['link'];
 
 $logFile = $lastId . 'mega.log';
 
-shell_exec("./start.sh '".$_POST['link']."' '".$lastId."mega.log' &");
+shell_exec("./start.sh '".$_POST['link']."' '".$lastId."mega.log' '".$_SESSION['username']."'&");

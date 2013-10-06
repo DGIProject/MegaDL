@@ -7,7 +7,7 @@
     <file path="/deleteMegaDL.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381047723272" ignored="false" />
     <file path="/ajax.js" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381086633639" ignored="false" />
     <file path="/index.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381079496642" ignored="false" />
-    <file path="/addMegaDL.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381078543869" ignored="false" />
+    <file path="/addMegaDL.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381088365728" ignored="false" />
     <file path="/test.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381002557921" ignored="false" />
     <file path="/executescript.sh" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1380648357448" ignored="false" />
     <file path="/traitment.php" changelist="93414e59-6abf-4486-b11c-24e9730f19fa" time="1381047459033" ignored="false" />
@@ -49,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addMegaDL.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="addMegaDL.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addMegaDL.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="56" selection-start="314" selection-end="314" vertical-scroll-proportion="-7.8461537">
+            <state line="20" column="88" selection-start="535" selection-end="535" vertical-scroll-proportion="0.63909775">
               <folding />
             </state>
           </provider>
@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ajax.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="71" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.46972477">
+            <state line="124" column="71" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!block;n#deleteMegaDL#0" expanded="false" />
                 <marker date="1381087595962" expanded="true" signature="1871:1887" placeholder="..." />
@@ -119,9 +119,9 @@
         <option value="$PROJECT_DIR$/file.txt" />
         <option value="$PROJECT_DIR$/deleteMegaDL.php" />
         <option value="$PROJECT_DIR$/getPercent.php" />
-        <option value="$PROJECT_DIR$/addMegaDL.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/assets/js/ajax.js" />
+        <option value="$PROJECT_DIR$/addMegaDL.php" />
       </list>
     </option>
   </component>
@@ -289,13 +289,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17272727" sideWeight="0.67064846" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17272727" sideWeight="0.67064846" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -454,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addMegaDL.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="56" selection-start="314" selection-end="314" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="73" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-9.5">
@@ -474,11 +467,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/ajax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="71" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.46972477">
+        <state line="124" column="71" selection-start="4820" selection-end="4820" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!block;n#deleteMegaDL#0" expanded="false" />
             <marker date="1381087595962" expanded="true" signature="1871:1887" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addMegaDL.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="88" selection-start="535" selection-end="535" vertical-scroll-proportion="0.63909775">
+          <folding />
         </state>
       </provider>
     </entry>
