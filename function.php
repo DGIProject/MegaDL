@@ -4,7 +4,7 @@ function bdd_connect()
 {
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=megadl' , 'root' , 'athome');
+        $bdd = new PDO('mysql:host=localhost;dbname=megadl' , 'mysql' , 'pass');
     }
     catch(Exception $e)
     {

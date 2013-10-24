@@ -13,20 +13,6 @@ if($_SESSION['username'] == NULL)
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<<<<<<< HEAD
-    <style>
-        .bold
-        {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-<div class="well">
-    <table class="table" id="tabList">
-        <h1>MegaDL</h1>
-        <thead>
-=======
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -38,11 +24,11 @@ if($_SESSION['username'] == NULL)
     <div class="table-responsive">
         <table class="table table-striped" id="tabList">
             <thead>
->>>>>>> New things
             <tr>
                 <td style="font-weight: bold;">#</td>
                 <td>Name</td>
                 <td>Link</td>
+                <td>Speed</td>
                 <td>Size</td>
                 <td>Progress</td>
                 <td>Option</td>
@@ -52,34 +38,13 @@ if($_SESSION['username'] == NULL)
             <?php
             $listMegaDL = getListMegaDL();
 
-<<<<<<< HEAD
-        foreach($listMegaDL as $infoMegaDL)
-        {
-            echo '<tr id="'.$infoMegaDL['id'].'">
-                    <td style="font-weight: bold;">' . $infoMegaDL['id'] . '</td>
-                    <td><span id="filename'.$infoMegaDL['id'].'"><img src="assets/img/load.gif"></span></td>
-                    <td>' . $infoMegaDL['link'] . '</td>
-                    <td><span id="size'.$infoMegaDL['id'].'"><img src="assets/img/load.gif"></span></td>
-                    <td>
-                        <div class="progress progress-striped active">
-                            <div id="progress' . $infoMegaDL['id'] . '" class="progress-bar"  role="progressbar" aria-valuemin="0" aria-valuemax="100" width="0%"></div>
-                        </div>
-                    </td>
-                    <td>
-                        <button type="button" onclick="pauseMegaDL(' . $infoMegaDL['id'] . ');" class="btn"><i class="glyphicon glyphicon-pause"></i></button>
-                        <button type="button" onclick="deleteMegaDL(' . $infoMegaDL['id'] . ');" class="btn btn-danger"><i class="glyphicon glyphicon-remove"></i></button>
-                    </td>
-                  </tr>';
-        }?>
-        </tbody>
-    </table>
-=======
             foreach($listMegaDL as $infoMegaDL)
             {
                 echo '<tr id="'.$infoMegaDL['id'].'">
                         <td style="font-weight: bold;">' . $infoMegaDL['id'] . '</td>
                         <td><span id="filename'.$infoMegaDL['id'].'"><img src="assets/img/load.gif"></span></td>
                         <td>' . $infoMegaDL['link'] . '</td>
+                        <td><span id="speed'.$infoMegaDL['id'].'"></span>
                         <td><span id="size'.$infoMegaDL['id'].'"><img src="assets/img/load.gif"></span></td>
                         <td>
                             <div class="progress progress-striped active" style="margin-top: 4px;">
@@ -94,7 +59,6 @@ if($_SESSION['username'] == NULL)
             </tbody>
         </table>
     </div>
->>>>>>> New things
     </br>
     <div class="row">
         <div class="col-lg-4">
@@ -107,6 +71,7 @@ if($_SESSION['username'] == NULL)
         </div>
         <div class="col-lg-offset-4">
             <a href="#settings"  data-toggle="modal" class="btn btn-default"><i class="glyphicon glyphicon-cog"></i></a>
+            <a href="logout.php" class="btn btn-default">Logout</a>
         </div>
     </div>
     <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -139,7 +104,8 @@ if($_SESSION['username'] == NULL)
     <?php
         foreach($listMegaDL as $infoMegaDL)
         {
-            echo 'tableauListID.push("'.$infoMegaDL['id'].'");';
+            echo 'temp = ['.$infoMegaDL['id'].',0];';
+            echo 'tableauListID.push(temp);';
         }
     ?>
 
