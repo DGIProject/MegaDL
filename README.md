@@ -17,7 +17,7 @@ Install megaTools
 =================
 
 1. Build it from sources available at http://megatools.megous.com/
-2. On Debian : use the unstable repo to install megatools 
+2. OR : On Debian : use the unstable repo to install megatools 
    * Add ```deb http://ftp.fr.debian.org/debian/ unstable non-free contrib main```` to /etc/apt/sources.list
    * Then ``` apt-get update``` 
    * Then ``` apt-get install megatools```
