@@ -1,10 +1,16 @@
 <?php session_start();
 
+include "config.php";
+
 function bdd_connect()
 {
+    global $bdd_host;
+    global $bdd_dbName;
+    global $bdd_userName;
+    global $bdd_password;
     try
     {
-        $bdd = new PDO('mysql:host=localhost;dbname=megadl' , 'mysql' , 'pass');
+        $bdd = new PDO("mysql:host=$bdd_host;dbname=$bdd_dbName" , $bdd_userName , $bdd_password);
     }
     catch(Exception $e)
     {

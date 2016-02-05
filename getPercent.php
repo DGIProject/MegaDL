@@ -7,15 +7,16 @@
  * To change this template use File | Settings | File Templates.
  */
 
+include "config.php";
 
 if ($_POST['id'] != null) {
 
-    $o = fopen("../Pid".$_POST['id']."mega.log", "r");
+    $o = fopen($phpLogPath."Pid".$_POST['id']."mega.log", "r");
     $l = fgets($o);
     $Pid = $l - 1;
 
     shell_exec("./testPid.sh " . $Pid);
-    $o = fopen("../result".$Pid.".log", "r");
+    $o = fopen($phpLogPath."result".$Pid.".log", "r");
     $PidTested = fgets($o);
 
     $o = fopen("temoin.txt", "r");
@@ -25,7 +26,7 @@ if ($_POST['id'] != null) {
 
     if ($PidTested == $posibleValue[1]) { //if == NotOK
         $fileName = $_POST['id'] . "mega.log";
-        $tab = file('../'.$fileName);
+        $tab = file($phpLogPath.$fileName);
         $line = $tab[count($tab) - 1];
         $ligne2 = str_replace("[0K", '', $line);
         $ligne3 = str_replace("[37;1m", '', $ligne2);
@@ -39,7 +40,7 @@ if ($_POST['id'] != null) {
 
     } else {
         $fileName = $_POST['id'] . "mega.log";
-        $tab = file('../'.$fileName);
+        $tab = file($phpLogPath.$fileName);
         $line = $tab[count($tab) - 1];
         $ligne2 = str_replace("[0K", '', $line);
         $ligne3 = str_replace("[37;1m", '', $ligne2);

@@ -18,26 +18,22 @@ Install megaTools
 
 1. Build it from sources available at http://megatools.megous.com/
 2. OR : On Debian : use the unstable repo to install megatools 
-   * Add ```deb http://ftp.fr.debian.org/debian/ unstable non-free contrib main``` to /etc/apt/sources.list
+   * Add  ```deb http://ftp.fr.debian.org/debian/ unstable non-free contrib main``` to /etc/apt/sources.list
    * Then ``` apt-get update``` 
    * Then ``` apt-get install megatools```
    
 Prepare Project
 ===============
 
-- In file ``` addMegaDL.php ``` change database connetion informations.
-- In file ``` deleteMegaDL.php ``` change database connetion informations.
-- In file ``` function.php ``` change database connetion informations.
+- Edit ```config.php``` and change values to make them correspond to your database access and path to log file.
+- Edit ```config.sh``` and make changes on path if needed
 
-Create a folder "share" in /home/. This directory will contain all the downloaded files ! 
 
-1. mkdir /home/share/
-2. chmod -R 777 /home/share/
-
-Add the right to execute ```start.sh``` and ```testPid.sh```
+Add the right to execute ```start.sh``` and ```testPid.sh```  and ```config.php```
 ```
 chmod +x start.sh 
 chmod +x testPid.sh
+chmod +x config.php
 ```
 
 
